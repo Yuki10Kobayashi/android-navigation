@@ -50,12 +50,9 @@ class MainFragment : Fragment() {
             Navigation.findNavController(it).navigate(R.id.flow_step_one, null, options)
         }
 
-        //TODO STEP 7 - Update the OnClickListener to navigate using an action
-//        view.findViewById<Button>(R.id.navigate_action_bt)?.setOnClickListener(
-//                Navigation.createNavigateOnClickListener(R.id.next_action, null)
-//        )
-
-        //TODO ENDSTEP 7
+        view.findViewById<Button>(R.id.navigate_action_bt).setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.next_action, null)
+        )
     }
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {

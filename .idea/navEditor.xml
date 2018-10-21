@@ -14,7 +14,7 @@
                         <option name="myPosition">
                           <Point>
                             <option name="x" value="177" />
-                            <option name="y" value="12" />
+                            <option name="y" value="-7" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -67,9 +67,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="-45" />
+                            <option name="y" value="-10" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_launcher_home_to_flow_step_one">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -79,8 +88,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="372" />
-                            <option name="y" value="12" />
+                            <option name="x" value="367" />
+                            <option name="y" value="-4" />
                           </Point>
                         </option>
                       </LayoutPositions>
