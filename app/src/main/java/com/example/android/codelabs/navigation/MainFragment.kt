@@ -23,6 +23,8 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.navigation.Navigation
 
 /**
  * Fragment used to show how to navigate to another destination
@@ -37,11 +39,9 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //TODO STEP 5 - Set an OnClickListener, using Navigation.createNavigateOnClickListener()
-//        view.findViewById<Button>(R.id.navigate_dest_bt)?.setOnClickListener(
-//            Navigation.createNavigateOnClickListener(R.id.flow_step_one, null)
-//        )
-        //TODO ENDSTEP 5
+        view.findViewById<Button>(R.id.navigate_dest_bt).setOnClickListener(
+            Navigation.createNavigateOnClickListener(R.id.flow_step_one, null)
+        )
 
         //TODO STEP 6 - Set NavOptions
 
