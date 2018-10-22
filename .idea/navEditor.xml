@@ -78,6 +78,11 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="next_action">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                           </map>
                         </option>
                       </LayoutPositions>
