@@ -11,6 +11,10 @@
             android:title="@string/deeplink" />
     </group>
     <item
+        android:id="@+id/shopping_fragment"
+        android:icon="@drawable/ic_shopping_cart_white"
+        android:title="@string/shopping_cart" />
+    <item
         android:id="@+id/settings_fragment"
         android:icon="@drawable/ic_settings"
         android:title="@string/settings" />

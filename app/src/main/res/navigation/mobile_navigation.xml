@@ -14,7 +14,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
-            app:startDestination="@+id/launcher_home">
+            app:startDestination="@id/launcher_home">
     <fragment
         android:id="@+id/launcher_home"
         android:name="com.example.android.codelabs.navigation.MainFragment"
@@ -80,4 +80,9 @@
         android:name="com.example.android.codelabs.navigation.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/shoppingFragment"
+        android:name="com.example.android.codelabs.navigation.ShoppingFragment"
+        android:label="fragment_shopping"
+        tools:layout="@layout/fragment_shopping" />
 </navigation>

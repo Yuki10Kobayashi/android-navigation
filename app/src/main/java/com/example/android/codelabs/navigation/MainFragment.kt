@@ -18,14 +18,12 @@ package com.example.android.codelabs.navigation
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.Button
+import android.widget.Toast
 import androidx.navigation.NavOptions
 import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 
 /**
  * Fragment used to show how to navigate to another destination
@@ -57,5 +55,10 @@ class MainFragment : Fragment() {
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
         inflater?.inflate(R.menu.main_menu, menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        view!!.findNavController().navigate(R.id.shoppingFragment)
+        return true
     }
 }
